@@ -1,0 +1,75 @@
+<p>This page has</p>
+<h1 id="count">0</h1>
+<p>views</p>
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <br><br>
+  <style>
+    html,body,h1,h2,h3,h4,h5,h6,li {font-family: "Roboto", "sans-serif";
+background: #AAD7EF;
+color: white;
+text-align: left;}
+</style>
+  <h1>KWAHME COLE</h1>
+  <script>
+const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+  fetch('https://api.countapi.xyz/update/mycloudresumekwahme/views/?amount=1')
+    .then(res => res.json())
+    .then(res => {
+        countEl.innerHTML = res.value;
+  });
+}
+  </script>
+  <h2>OFallon, IL | (601) 480-8391 | kwahmec@gmail.com
+www.linkedin.com/in/Kwahme-Does-IT</h2>
+  <hr />
+  <br>
+  <p class="head">PROFESSIONAL SUMMARY</p>
+  <ul>
+    <li>Technically driven resource with 10+ years in infrastructure design, solutions, and operations experience. Adept at security services, infrastructure support, application support, and. Strong background in information assurance, systems, and network maintenance. Has developed creative business plans utilizing diverse methodologies and engineering solutions to address current concerns in regulated environments. Army veteran with non-active Secret-level security clearance and CISSP certification.</li>
+  </ul>
+  <p class="head">Skills</p>
+  <ul>
+    <li>Cross-functional Leadership</li>
+    <li>Information Assurance</li>
+    <li>AWS</li>
+    <li>IT Security</li>
+    <li>Veteran</li>
+    <li>CISSP</li>
+    <li>PC/Application Troubleshooting</li>
+    <li>Web Design with HTML & CSS</li>
+    <li>Security Administration</li>
+  </ul>
+  <p class="head">EDUCATION | CERTIFICATION</p>
+  <ul>
+    <a href="https://uwf.edu/">
+      <li>University of West Florida</li>
+    </a>
+    <!--Link-->
+    <a href="https://www.credly.com/earner/earned/badge/0c507a9d-3219-4d89-bdd3-63e42fef883d">
+      <li>CISSP</li>
+    </a><a href="https://www.credly.com/badges/3ce76a17-37f5-4054-a3c9-fce8fc2205a8/public_url">
+      <li>AWS Certified Cloud Practitioner</li>
+    </a>
+  </ul>
+  <p class="head"> PROFESSIONAL EXPERIENCE</p>
+  <ul>
+    <li>Nessus Compliance Engineer</li>
+    <li>Windows System Adminstrator</li>
+    <li>Enterprise Patch & Scan System Administrator</li>
+  </ul>
+  <p class="head">Extracurriculars</p>
+  <ul>
+    <li>Blockchain Book Club</li>
+    <li>Cycling</li>
+    <li>Boxing</li>
+  </ul>
+</div>
+<div class="right"></div>
+<div id="footer">
+  <h2 id="name">Kwahme</h2></div>
